@@ -1,13 +1,20 @@
-# Version 2: AddTwoNums.py
+# Version 3: AddTwoNums.py
 # Add Two Numbers in Python
 # Author: Yujin Nie
-# Using user input
+# Using a function
+
+# function to add two numbers
+def add(a, b):
+    # converting input to float and adding
+    result = float(a) + float(b)
+    return result
 
 # taking user input
-a = input("First number: ")
-b = input("Second number: ")
+a = input("First Number: ")
+b = input("Second Number: ")
 
-# convertiog input to float and adding
-res = float(a) + float(b)
+# calling function
+res = add(a, b)
+print("The result is: ")
 print(res)
 
